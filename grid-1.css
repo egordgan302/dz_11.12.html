@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    
+}
+.container *{
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;                                                        
+    display: flex;
+    align-items: center;
+    
+}
+#child-1{
+    background: green;
+    grid-area: 1 / 1 / 4 / 2;
+}
+#child-2{
+    background: green;
+    grid-area:1 / 2 / 2 / 4;
+    
+}
+#child-3{
+    background: red;
+    grid-area: 1 / 4 / 2 / 5;
+}
+#child-4{
+    background: red;
+    grid-area: 2 / 3 / 3 / 4;
+}
+#child-5{
+    background: red;
+    grid-area: 3 / 2 / 4 / 3;
+}
+#child-6{
+    background: yellow;
+    grid-area: 2 / 2 / 3 / 3;
+}
+#child-7{
+    background: yellow;
+    grid-area: 3 / 3 / 4 / 4;
+}
+#child-8{
+    background: green;
+    grid-area: 2 / 4 / 4 / 5;
+}
